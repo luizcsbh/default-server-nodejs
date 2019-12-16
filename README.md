@@ -4,7 +4,7 @@
 ![stars](https://img.shields.io/github/stars/luizcsbh/default-server-nodejs)
 [![lincença](https://img.shields.io/github/license/luizcsbh/default-server-nodejs)](https://github.com/luizcsbh/default-server-nodejs/blob/master/LICENSE)
 ![code-size](https://img.shields.io/github/languages/code-size/luizcsbh/default-server-nodejs)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/luizcsbh/default-server-nodejs/nodejs.yml)
+
 
 # Default-Server-Nodejs :computer: 
 
