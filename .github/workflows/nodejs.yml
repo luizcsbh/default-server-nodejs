@@ -20,6 +20,9 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm ci
+        npm install-test
+        npm -l
+        npm version        
         npm run build --if-present
         npm test
       env:
