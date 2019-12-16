@@ -25,6 +25,7 @@ Para iniciar o servidor digite na raiz do projeto o comando:
 ```node
 nodemon app
 ```
+Para acessar o servidor digite no navegador: http://localhost:80
 
 ## Motivação
 
