@@ -23,7 +23,7 @@ npm install
 
 Para iniciar o servidor digite na raiz do projeto o comando:
 ```node
-npm start
+nodemon app
 ```
 
 ## Motivação
