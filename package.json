@@ -9,7 +9,7 @@
   "author": "Luiz Santos",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.15.2",
+    "body-parser": "^1.19.0",
     "consign": "^0.1.2",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
