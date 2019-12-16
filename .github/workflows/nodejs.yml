@@ -23,7 +23,7 @@ jobs:
         
         npm -l
         npm version        
-        npm run build 
+       
         
       env:
         CI: true
