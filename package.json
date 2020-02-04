@@ -1,13 +1,24 @@
 {
-  "name": "default-server",
+  "name": "default-server-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Standard server with nodejs for any web application",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Luiz Santos",
   "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/luizcsbh/default-server-nodejs.git"
+    },
+  "bugs": {
+      "url": "https://github.com/luizcsbh/default-server-nodejs/issues"
+    },
   "dependencies": {
     "body-parser": "^1.19.0",
     "consign": "^0.1.6",
