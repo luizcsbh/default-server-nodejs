@@ -10,29 +10,45 @@
 
 # Default-Server-Nodejs :computer: 
 
-Projeto que contém um app Servidor Nodejs no padrão MVC (Models, Views and Controllers) que pode pode ser utilizado para desenvolver aplicações en Nodejs.
+Project that contains a Nodejs Server app in the MVC standard (Models, Views and Controllers) that can be used to develop applications in Nodejs.
 
+## Motivation
 
-## Pré-requisitos para o projeto
+The motivation for creating this project is to facilitate programming in Nodejs by delivering a default server to reduce the time to assist in creating applications
 
-- npm instalado.
+## Prerequisites for the project
 
-## Projeto
+- npm installed.
 
- Para instalar as dependencias do projeto digite na raiz do projeto o comando:
+## Project
+
+To install the project dependencies, type the command at the root of the project:
 ```node
 npm install
 ```
 
-Para iniciar o servidor digite na raiz do projeto o comando:
+To start the server, type the command at the root of the project:
 ```node
-nodemon app
+npm start app
 ```
-Para acessar o servidor digite no navegador: http://localhost:80
 
-## Motivação
+To access the server type in the browser: http://localhost:80
 
-A motivação para criação deste projeto é facilitar a programação em Nodejs entregando um servidor default para reduzir o tempo de auxiliar na criação de aplicações
+## Dependencies
+
+```node
+body-parser:1.19.0,
+consign:0.1.6,
+ejs:3.0.1,
+express:4.17.1,
+express-validator:2.20.8
+```
+
+## Development Dependencies
+
+```node
+nodemon": 2.0.2
+```
 
 ## Author
 
