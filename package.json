@@ -1,6 +1,6 @@
 {
-  "name": "default-server-nodejs",
-  "version": "1.0.0",
+  "name": "default-server",
+  "version": "1.0.1",
   "description": "Standard server with nodejs for any web application",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   "bugs": {
     "url": "https://github.com/luizcsbh/default-server-nodejs/issues"
   },
+  "homepage": "https://github.com/luizcsbh/default-server-nodejs#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "consign": "^0.1.6",

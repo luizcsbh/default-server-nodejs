@@ -15,10 +15,10 @@ var app = express();
 
 /* Set the 'view engine' and 'views' variables of express */
 app.set('view engine', 'ejs');
-app.set('views', './app/views');
+app.set('views', './src/views');
 
 /* Configure middleware express.static */
-app.use(express.static('./app/public'));
+app.use(express.static('./src/public'));
 
 /* Configure body-parser middleware */
 app.use(bodyParser.urlencoded({extended: true}));
@@ -28,9 +28,9 @@ app.use(expressValidator());
 
 /* Autoloads routes, models, and controllers to the app object */
 consign()
-	.include('app/routes')
-	.then('app/models')
-	.then('app/controllers')
+	.include('src/routes')
+	.then('src/models')
+	.then('src/controllers')
 	.into(app);
 
 /* Export app object */
