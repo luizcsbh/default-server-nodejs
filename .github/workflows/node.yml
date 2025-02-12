@@ -27,6 +27,3 @@ jobs:
 
       - name: 🎯 Rodar testes
         run: npm test
-
-      - name: 🚀 Construir aplicação (se necessário)
-        run: npm run build
