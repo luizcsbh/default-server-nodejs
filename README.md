@@ -37,11 +37,13 @@ To access the server type in the browser: http://localhost:80
 ## Dependencies
 
 ```node
-body-parser:1.19.0,
-consign:0.1.6,
-ejs:3.0.1,
-express:4.17.1,
-express-validator:2.20.8
+"body-parser": "^1.19.0",
+"consign": "^0.1.6",
+"ejs": "^3.0.1",
+"express": "^4.17.1",
+"express-validator": "^7.2.1",
+"semver": "^7.7.1",
+"simple-update-notifier": "^2.0.0"
 ```
 
 ## Development Dependencies

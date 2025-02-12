@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "test": "echo 'Nenhum teste configurado' && exit 0",
+    "lint": "eslint ."
   },
   "author": {
     "name": "Luiz Santos",
