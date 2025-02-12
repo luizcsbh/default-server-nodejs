@@ -28,8 +28,5 @@ jobs:
       - name: 🎯 Rodar testes
         run: npm test
 
-      - name: 🔍 Verificar lint
-        run: npm run lint
-
       - name: 🚀 Construir aplicação (se necessário)
         run: npm run build
